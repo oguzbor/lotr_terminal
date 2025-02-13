@@ -1,0 +1,53 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #f1f1f1;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.terminal {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.terminal-header {
+    background-color: #333;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: #f1c40f;
+    font-size: 1.2em;
+}
+
+.terminal-body {
+    padding: 20px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+#terminal-output {
+    white-space: pre-wrap;
+}
+
+#terminal-input {
+    width: 100%;
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    outline: none;
+}
