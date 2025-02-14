@@ -1,27 +1,22 @@
-# Oguzbor Terminal Portfolio
+# Interactive Terminal Portfolio
 
-Bu proje, Lord of the Rings temalı bir terminal portföyüdür. Kullanıcılar, terminal üzerinden belirli komutları girerek portföy hakkında bilgi alabilirler. Bu projede HTML, CSS ve JavaScript kullanılmıştır ve GitHub Pages üzerinde host edilmektedir.
+![Gandalf](gandalf.png)
 
-## İçindekiler
-
-- [Özellikler](#özellikler)
-- [Kurulum](#kurulum)
-- [Kullanım](#kullanım)
-- [Komutlar](#komutlar)
-- [Katkıda Bulunma](#katkıda-bulunma)
-- [Lisans](#lisans)
+Bu proje, kullanıcıların terminal benzeri bir arayüz aracılığıyla portföy bilgilerini görüntülemelerine ve belirli komutlar çalıştırarak etkileşimde bulunmalarına olanak tanır.
 
 ## Özellikler
 
-- Lord of the Rings temalı terminal arayüzü
-- Kullanıcı komutları ile bilgi görüntüleme
-- Responsive tasarım
-- Güvenli komut işleme
+- **Terminal Benzeri Arayüz**: Kullanıcı dostu terminal arayüzü ile portföy bilgilerine erişim sağlar.
+- **Dinamik Komut Çalıştırma**: Kullanıcılar belirli komutlar girerek portföy bilgilerini keşfedebilirler.
+- **Otomatik Boyutlandırma**: Terminal içeriği büyüdükçe terminal de otomatik olarak büyür.
+- **Rastgele İsim ve Renkler**: Terminal her komut çalıştırıldığında rastgele karakter isimleri ve renkler ile güncellenir.
+- **Sosyal Medya Entegrasyonu**: Sosyal medya bağlantıları kolay erişim için terminalde gösterilir.
+- **İnteraktif Yardım**: `help` komutu ile mevcut komutların listesi ve açıklamaları görüntülenebilir.
 
 ## Kurulum
 
-Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
+Proje dosyalarını yerel ortamınıza klonlayarak başlayabilirsiniz:
 
-1. Bu repository'yi klonlayın:
-   ```sh
-   git clone https://github.com/OguzBo_garanti/oguzbor-terminal-portfolio.git
+```bash
+git clone https://github.com/username/interactive-terminal-portfolio.git
+cd interactive-terminal-portfolio
