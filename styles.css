@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: hidden;
 }
 
 .terminal {
@@ -16,6 +17,12 @@ body {
     max-width: 800px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    resize: both;
+    overflow: hidden;
 }
 
 .terminal-header {
@@ -26,6 +33,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: move;
 }
 
 .title {
@@ -35,12 +43,27 @@ body {
 
 .terminal-body {
     padding: 20px;
-    height: 400px;
     overflow-y: auto;
+    position: relative;
 }
 
 #terminal-output {
     white-space: pre-wrap;
+}
+
+.separator {
+    border-top: 1px solid #f1f1f1;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.prompt {
+    display: flex;
+    align-items: center;
+}
+
+#prompt-text {
+    white-space: pre;
 }
 
 #terminal-input {
@@ -50,4 +73,33 @@ body {
     color: inherit;
     font: inherit;
     outline: none;
+}
+
+.blinking-cursor {
+    border-right: 6px solid;  /* Daha kalın cursor */
+    animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.inactive {
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a {
+    color: #f1c40f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
