@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
         typeWriter();
     }
 
-    // Tek tek harflerle yazma fonksiyonu
+    // Yazma fonksiyonu
     function typeText(text, callback) {
         let index = 0;
         isTyping = true;
@@ -105,7 +105,7 @@ Maybe if you want to have a bit of fun you can take a look at <span class="bold"
     // Terminal başlığını güncelle
     updateTerminalTitle();
 
-    // Yanıp sönen imleç için sınıf ekle
+    // İmleç için sınıf ekle
     terminalInput.classList.add('blinking-cursor');
 
     terminalInput.addEventListener("keydown", function(event) {
