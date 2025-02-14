@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oguzbor Terminal Portfolio</title>
+    <title>Oguzbor Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="terminal">
         <div class="terminal-header">
-            <span class="title">Oguzbor Terminal</span>
+            <span class="title" id="terminal-title"></span>
         </div>
         <div class="terminal-body">
             <div id="terminal-output"></div>
-            <input type="text" id="terminal-input" autofocus>
+            <div class="separator"></div>
+            <div class="prompt">
+                <span id="prompt-text"></span>
+                <input type="text" id="terminal-input" autofocus>
+            </div>
         </div>
     </div>
     <script src="scripts.js"></script>
