@@ -13,6 +13,10 @@ Bu proje, kullanıcıların terminal benzeri bir arayüz aracılığıyla portf�
 - **Sosyal Medya Entegrasyonu**: Sosyal medya bağlantıları kolay erişim için terminalde gösterilir.
 - **İnteraktif Yardım**: `help` komutu ile mevcut komutların listesi ve açıklamaları görüntülenebilir.
 
+## Önizleme için aşağıdaki adresi ziyaret edebilirsiniz.
+https://oguzbor.github.io/lotr_terminal/
+
+
 ## Kurulum
 
 Proje dosyalarını yerel ortamınıza klonlayarak başlayabilirsiniz:
@@ -21,4 +25,3 @@ Proje dosyalarını yerel ortamınıza klonlayarak başlayabilirsiniz:
 git clone https://github.com/username/interactive-terminal-portfolio.git
 cd interactive-terminal-portfolio
 
-## Önizleme için https://oguzbor.github.io/lotr_terminal/ adresini ziyaret edebilirsiniz.
