@@ -249,13 +249,7 @@ Main Characters:
 - <span class="bold">Théoden</span>: The King of Rohan (The project manager who leads the team with courage)
 - <span class="bold">Faramir</span>: The Captain (The developer who ensures code quality and standards)
 - <span class="bold">Black Rider</span>: The Silent Stalker (The hidden bug that is hard to track)
-- <span class="bold">Éomer</span>: The Horse Lord (The developer who swiftly handles tasks and issues)
-- <span class="bold">Treebeard</span>: The Ent (The senior developer with vast experience and knowledge)
 - <span class="bold">Radagast</span>: The Brown Wizard (The developer who loves working with nature-inspired algorithms)
-- <span class="bold">Shelob</span>: The Giant Spider (The complex problem that entangles the team)
-- <span class="bold">Elendil</span>: The High King (The visionary leader who sets the direction for the project)
-- <span class="bold">Elrohir</span>: The Twin (The developer who works seamlessly with their pair)
-- <span class="bold">Baldor</span>: The Bold (The developer who is not afraid to tackle the toughest challenges)
 `;
         printText(charactersText);
         resizeTerminal();
