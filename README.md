@@ -1,4 +1,4 @@
-# Interactive Terminal Portfolio
+# Interactive LOTR Personel Terminal Portfolio
 
 ![Gandalf](gandalf.png)
 
