@@ -20,3 +20,5 @@ Proje dosyalarını yerel ortamınıza klonlayarak başlayabilirsiniz:
 ```bash
 git clone https://github.com/username/interactive-terminal-portfolio.git
 cd interactive-terminal-portfolio
+
+## Önizleme için https://oguzbor.github.io/lotr_terminal/ adresini ziyaret edebilirsiniz.
