@@ -247,9 +247,6 @@ Main Characters:
 - <span class="bold">Boromir</span>: The Noble Warrior (The team leader who sometimes struggles with difficult decisions)
 - <span class="bold">Meriadoc Brandybuck</span>: The Brave Hobbit (The developer who is always ready to take on new challenges)
 - <span class="bold">Théoden</span>: The King of Rohan (The project manager who leads the team with courage)
-- <span class="bold">Faramir</span>: The Captain (The developer who ensures code quality and standards)
-- <span class="bold">Black Rider</span>: The Silent Stalker (The hidden bug that is hard to track)
-- <span class="bold">Radagast</span>: The Brown Wizard (The developer who loves working with nature-inspired algorithms)
 `;
         printText(charactersText);
         resizeTerminal();
